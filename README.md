@@ -36,3 +36,18 @@ In this project we'll try to separate customer into 4 segments using Recency, Fr
 We'll be using recommendation system to recommend products to these customers that might be of interest to them, in order to increase frequency and monetary value, specifically from this group (`Need Attention`) of customer.
 
 ---
+
+Segmentation Details:
+
+- A : Loyal Customer
+- B : Casual Customer
+- C : Need Attention
+- D : About To Sleep - Lost Customer
+
+
+| Customer Segment | Segment Description |
+| --- | ---|
+| Loyal Customer | Do transaction recently, often and spend the most money. |
+| Casual Customer | Bought most recently, but not often. In medium recency, frequency and monetary values. |
+| Need Attention | Our *relatively* new customer, has the highest recency score but still low on the frequency and monetary value. |
+| About To Sleep - Lost Customer | Lowest recency, frequency and monetary scores. This customer are lost and/ or has never made any transaction in a very long time. |
