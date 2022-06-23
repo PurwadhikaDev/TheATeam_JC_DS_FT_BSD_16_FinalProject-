@@ -1,7 +1,7 @@
 # TheATeam_JC_DS_FT_BSD_16_FinalProject-
 
 ## **About**
-In this project, we will use Brazilian e-Commerce Public dataset from Kaggle. This dataset contains details of more than 100.000 orders from 2016 to 2018, made at multiple marketplaces in Brazil. Its features allows us to analyze order from various dimensions: from order status, price, payment and freight price, to customer's location, product attributes, and reviews written by customers. We also geolocation data available.
+In this project, we will use [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_products_dataset.csv) from Kaggle. This dataset contains details of more than 100.000 orders from 2016 to 2018, made at multiple marketplaces in Brazil. Its features allows us to analyze order from various dimensions: from order status, price, payment and freight price, to customer's location, product attributes, and reviews written by customers. We also geolocation data available.
 
 For this project, we will apply RFM Analysis and K-means clustering to segment customers into different clusters based on their behavioral characteristics. And we will use recommendation system model to get product recommendation for the certain type of customer.
 
@@ -35,5 +35,4 @@ In this project we'll try to separate customer into 4 segments using Recency, Fr
 
 We'll be using recommendation system to recommend products to these customers that might be of interest to them, in order to increase frequency and monetary value, specifically from this group (`Need Attention`) of customer.
 
----
 ---
